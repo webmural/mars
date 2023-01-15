@@ -1,0 +1,21 @@
+::selection {
+  background: deeppink;
+  color: lemonchiffon;
+}
+
+:root {
+  background: lemonchiffon;
+  border-inline: 1ex dashed gainsboro;
+  color: deeppink;
+}
+
+:any-link {
+  color: inherit;
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    background: seashell;
+    color: mediumvioletred;
+  }
+}
