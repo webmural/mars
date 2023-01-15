@@ -47,9 +47,17 @@ em {
   justify-content: center;
   list-style: armenian;
   min-height: 66.6vmin;
+  padding-block: 1ex;
 }
 
 .cherry::marker { content: "🍒 " }
 .spark::marker { content: "💖 " }
 .sharp::marker { content: "💥 " }
 .shark::marker { content: "🦈 " }
+
+@media (orientation: portrait) {
+  .topgum {
+    font-size: 3rem;
+    writing-mode: vertical-lr;
+  }
+}
