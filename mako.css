@@ -1,0 +1,19 @@
+::selection {
+  background: lemonchiffon;
+  color: deeppink;
+}
+
+:root {
+  background: darkmagenta;
+  border-inline: 1ex dashed palevioletred;
+  color: peachpuff;
+}
+
+:any-link {
+  color: peachpuff;
+}
+
+@media (prefers-contrast: more) {
+  :root { color: lemonchiffon }
+  :any-link { color: honeydew }
+}
